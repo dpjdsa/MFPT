@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="UTF-8">
+        <title>Financial Planning Tool</title>
+        <!-- This HTML file allows the user to input details of their 
+        Financial Situation. Initially Optimised for Mobile Devices
+        Dino D'Sa 2nd December 2021
+        
+        Link to CSS and jquery DatePicker-->
+        <link rel="stylesheet" href="MFPToolstyle.css" />
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+          $( function() {
+           $( ".dateinpc" ).datepicker({dateFormat:"d-M-yy",changeYear:true,changeMonth:true,yearRange:"2021:2050"});
+          });
+          $( function() {
+           $( ".dateinp" ).datepicker({dateFormat:"d-M-yy",changeYear:true,changeMonth:true,yearRange:"2021:2050"});
+          });
+         </script>
+    </head>
+    <!-- Main body of page-->
+    <body>
+        <header>
+        <h1>Financial Planning Tool</h1>
+        </header>
+        <main>
+            <script type="text/javascript" src="MFPToolscript.js"></script>
+        </main>
+        <footer>
+            <hr>
+            <sub>&nbsp;&nbsp;&nbsp;&nbsp;This is not Financial Advice. Users of this site do so at their own risk with no liability borne by Dino D'Sa<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&copy; Dino D'Sa MMXXI<br>
+        </footer>
+    </body>  
+</html>
