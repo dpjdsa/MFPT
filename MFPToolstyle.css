@@ -28,18 +28,28 @@ body{
 
 footer{
     font-family: "Arial";
-    font-size: 1%;
+    font-size: 0.1em;
     overflow:auto;
     width:100%;
+    text-transform:uppercase;
+}
+.wrapper{
+    width:480px;
 }
 .optiontest{
     color:#8C1018;
     background-color: #9e9ec2;
+    width:100px;
     font-size: 2em;
+    float: right;
+}
+#genderform{
+    width: 200px;
+    background-color: #FFFFCC;
 }
 body{
     font-family: "Arial";
-    font-size:100%;
+    font-size:16px;
     color: #635959;
     background-color:#ffffff;
     overflow:auto;
