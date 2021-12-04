@@ -34,7 +34,7 @@ footer{
     text-transform:uppercase;
 }
 .wrapper{
-    width:480px;
+    width:100%;
 }
 .optiontest{
     color:#8C1018;
@@ -42,6 +42,7 @@ footer{
     width:100px;
     font-size: 2em;
     float: right;
+    margin: 50px;
 }
 #genderform{
     width: 200px;
