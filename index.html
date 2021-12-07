@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-    <div class=wrapper>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial scale=1.0">
@@ -11,29 +10,20 @@
         
         Link to CSS and jquery DatePicker-->
         <link rel="stylesheet" type="text/css" href="MFPToolstyle.css" />
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script>
-          $( function() {
-           $( ".dateinpc" ).datepicker({dateFormat:"d-M-yy",changeYear:true,changeMonth:true,yearRange:"2021:2050"});
-          });
-          $( function() {
-           $( ".dateinp" ).datepicker({dateFormat:"d-M-yy",changeYear:true,changeMonth:true,yearRange:"2021:2050"});
-          });
-         </script>
     </head>
     <!-- Main body of page-->
     <body>
+        <div class=wrapper>
         <header>
         <h1>Financial Planning Tool Mobile Enabled</h1>
         </header>
         <main>
-            <script type="text/javascript" src="MFPToolscript.js"></script>
+            <script src="MFPToolscript.js"></script>
             <h2>A header level 2</h2>
             <p>Here is some body text<br>
             Just to see how the page looks</p>
             <select name="optiontest" class="optiontest">
-                <option selected="selected" value="0"></option>
+                <option selected="selected" value="0" label=" "></option>
                 <option value="1">a</option>
                 <option value="2">b</option>
                 <option value="3">c</option>
@@ -41,20 +31,28 @@
                 <option value="5">e</option>
             </select>
             <form id="genderform">Gender:<br>
-                <input type="radio" id="Male" name="gender" value="M">
-                <label for="Male">Male</label><br>
-                <input type="radio" id="Female" name="gender" value="F" checked class="myradio">
-                <label for="Female">Female</label><br>
+                <div class=radios_item>
+                <input type="radio" id="Female" name="gender" value="F" class="radios_input">
+                <label for="Female" class="radios_label">
+                        Female
+                </label><br>
+                </div>
+                <div class=radios_item>
+                <input type="radio" id="Male" name="gender" value="M" class="radios_input" checked>
+                <label for="Male" class="radios_label">
+                        Male
+                </label><br>
+                </div>
             </form>
             <form id="DoBform">Date of Birth:
                 <input type="date" id="DoB">
             </form>
         </main>
+        </div>
         <footer>
             <hr>
-            <sub>&nbsp;&nbsp;&nbsp;&nbsp;This is not Financial Advice. Users of this site do so at their own risk with no liability borne by Dino D'Sa<br>
+            <sub>&nbsp;&nbsp;&nbsp;&nbsp;This is not Financial Advice. Users of this site do so at their own risk with no liability borne by Dino D'Sa<br></sub>
             &nbsp;&nbsp;&nbsp;&nbsp;&copy; Dino D'Sa MMXXI<br>
         </footer>
     </body>
-    </div> 
 </html>
