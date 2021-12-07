@@ -46,12 +46,12 @@ footer{
     display:block;
     color: #00823b;
     background-color: #FFF;
-    font-size:3em;
+    font-size:2em;
 }
 #DoBform{
     display:block;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 #DoB{
     width:30%;
