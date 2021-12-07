@@ -1,7 +1,7 @@
 
 h1{
     color:red;
-    font-size:2em;
+    font-size:2rem;
     font-family:Arial, sans-serif;
     margin:0;
     border-bottom: 2px dashed black; 
@@ -24,7 +24,7 @@ h2{
 
 footer{
     font-family: "Arial";
-    font-size: 0.1em;
+    font-size: 0.1rem;
     overflow:auto;
     width:100%;
     text-transform:uppercase;
@@ -36,7 +36,7 @@ footer{
     color:#8C1018;
     background-color: #9e9ec2;
     width:10%;
-    font-size: 2rem;
+    font-size: 1rem;
     float: right;
     margin: 50px;
 }
@@ -46,23 +46,23 @@ footer{
     display:block;
     color: #00823b;
     background-color: #FFF;
-    font-size:2em;
+    font-size:1.5rem;
 }
 #DoBform{
     display:block;
     width: 100%;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 #DoB{
     width:30%;
     height:20%;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .radios_item{
     font-weight: 400;
     font-size: 16px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.25;
     display: block;
     position: relative;
