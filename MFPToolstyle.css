@@ -35,23 +35,23 @@ footer{
 .optiontest{
     color:#8C1018;
     background-color: #9e9ec2;
-    width:100px;
-    font-size: 2em;
+    width:10%;
+    font-size: 2rem;
     float: right;
     margin: 50px;
 }
 #genderform{
-    position:absolute;
-    left:100px;
-    width: 200px;
+    float:left;
+    width: 100%;
+    display:block;
     color: #00823b;
     background-color: #FFF;
     font-size:3em;
 }
 #DoBform{
-    top:100px;
-    font-size: 3em;
-    float:right;
+    display:block;
+    width: 100%;
+    font-size: 3rem;
 }
 #DoB{
     width:30%;
