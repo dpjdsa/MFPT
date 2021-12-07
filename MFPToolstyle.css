@@ -47,16 +47,18 @@ footer{
     color: #00823b;
     background-color: #FFF;
     font-size:1.5rem;
+    margin:0;
 }
 #DoBform{
     display:block;
-    width: 100%;
-    font-size: 1rem;
+    width: 30%;
+    font-size: 1.5rem;
 }
 #DoB{
-    width:30%;
+    width:60%;
     height:20%;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin:0;
 }
 
 .radios_item{
